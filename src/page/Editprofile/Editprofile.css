@@ -1,0 +1,197 @@
+.editprofile-wrapper {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 100%;
+}
+
+.editprofile-wrapper>h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 61px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+}
+
+.editprofile-wrapper form {
+    border: 1px solid #C4C4C4;
+    display: grid;
+    grid-template-rows: 1fr 100px;
+    gap: 30px;
+    height: 80%;
+    border-radius: 20px;
+    padding: 11px;
+    box-sizing: border-box;
+}
+
+form .form-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 235px;
+    gap: 30px;
+}
+
+.input label {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+}
+
+.input label>h2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 29px;
+    align-self: center;
+}
+
+
+
+form .input {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+
+.input label>input[type="text"] {
+    margin-left: 20px;
+    width: 497px;
+    height: 53px;
+    box-sizing: border-box;
+    border: 1px solid rgba(188, 188, 188, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.input label>input[type="password"] {
+    margin-left: 20px;
+    width: 497px;
+    height: 53px;
+    box-sizing: border-box;
+    border: 1px solid rgba(188, 188, 188, 0.5);
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+
+/* Checkmark  */
+
+.checkmark-info {
+    font-family: Barlow;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    margin-left: 20px;
+    align-items: center;
+}
+.checkmark-info input[type="checkbox"] {
+    display: none;
+}
+
+
+.checkmark-info .checkmark {
+    width: 46px;
+    height: 46px;
+
+
+}
+
+.checkmark-info .checkmark.active {
+    width: 46px;
+    height: 46px;
+    background: red;
+    border-radius: 10px;
+}
+
+/* file upload */
+.file-input {
+    width: 179px;
+    height: 234px;
+    background: rgba(159, 190, 174, 0.2);
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+}
+.file-upload {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.file-upload h2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #C4C4C4;
+}
+
+
+.file-upload img{
+    max-width: 197px;
+    max-height: 155px;
+    align-self: stretch;
+}
+
+.file-upload .file-upload-logo{
+
+        display: flex;
+        border: 1px solid #C4C4C4;
+        align-items: center;
+  
+        width: 97px;
+        align-self: center;
+        color: #C4C4C4;
+ 
+}
+
+
+/* Submit Button */
+form .submit {/* justify-self: flex-end; */display: flex;justify-content: flex-end;width: 100%;gap: 1%;}
+
+.submit button {
+    width: 82px;
+    height: 36px;
+    border: none;
+    border-radius: 25px;
+    background: #326E62;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 29px;
+}
+
+.submit a {
+    text-decoration: none;
+    background: #BD3913;
+    border-radius: 25px;
+    color: white;
+    width: 66px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 29px;
+}
+
+
